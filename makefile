@@ -1,6 +1,6 @@
 all: clean compile run
 
-compile: exercise.cpp
+compile: main.cpp
 	g++ *.cpp -o build/exercise
 run: 
 	clear
