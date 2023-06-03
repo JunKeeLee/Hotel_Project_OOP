@@ -71,13 +71,13 @@ int main() {
                 break;
             }
             case '4': {
-                double totalBaseFee = hotel.getTotalBaseFee();
+                double totalBaseFee = hotel.getTotalByBaseRate();
                 std::cout << "Total for base fee: " << totalBaseFee << std::endl;
 
                 break;
             }
             case '5': {
-                hotel.printOcupation();
+                hotel.printOccupancy();
                 break;
             }
             case '6':
