@@ -90,7 +90,7 @@ int main() {
         }
 
         std::cout << std::endl;
-    } while (option != 6);
+    } while (option != '6');
 
     return 0;
 }

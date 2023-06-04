@@ -18,7 +18,7 @@ public:
     bool checkout(int roomNumber);
     bool chargeRoom(int roomNumber, double charge);
     double getTotalByBaseRate();
-    void printOccupation();
+    void printOccupancy();
 };
 
 Hotel::Hotel(const std::string& name) : name(name), numRooms(50) {
