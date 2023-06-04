@@ -2,6 +2,7 @@
 #define HOTEL_H
 
 #include "room.h"
+#include "hotel.h"
 #include <iostream>
 #include <vector>
 
@@ -64,7 +65,7 @@ double Hotel::getTotalByBaseRate() {
     return total;
 }
 
-void Hotel::printOccupation() {
+void Hotel::printOccupancy() {
     std::cout << "Occupancy at " << name << std::endl;
     for (int i = 0; i < rooms.size(); i++) {
         if (!rooms[i].isAvailable()) {
